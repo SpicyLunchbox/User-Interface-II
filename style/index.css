@@ -64,7 +64,7 @@ img.main_photo{
 }
 header{
     background-color:#4EEBAC;
-    height:20vh;
+    height:20%;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -91,7 +91,7 @@ a{
 }
 
 section.photo_bio{
-    height:30vh;
+    height:30%;
     display:flex;
     flex-direction:row;
 }
@@ -105,7 +105,7 @@ section.photo_bio{
 }
 
 section.projects{
-    height:40vh;
+    height:40%;
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
@@ -119,7 +119,7 @@ section.projects{
 }
 
 footer{
-    height:20vh;
+    height:20%;
     background-color:#4EEBAC;
     display:flex;
     flex-direction:column;
@@ -154,6 +154,7 @@ a.fa{
 }
 
 @media (max-width: 800px){
+    
     header{
         width: 100%;
         display: flex;
@@ -197,5 +198,44 @@ a.fa{
 }
 
 @media (max-width: 500px){
-
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    h1{
+       text-align: center; 
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.photo_bio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bio h2{
+        text-align: center; 
+    }
+    .bio button{
+        text-align: center; 
+    }
+    .bio p{
+        text-align: center;
+    }
 }
